@@ -149,9 +149,9 @@ for (let i = 0; i < uzd3Masyvas.length; i++) {
 console.log("Map 4.7")
 
 
-uzd3Masyvas.map(item => {
+uzd3Masyvas.map(item, index => {
   if (!isNaN(item)) {
-    console.log(`Index: ${uzd3Masyvas.indexOf(item)}, Number ${item}`)
+    console.log(`Index: ${index}, Number ${item}`)
   }
 
 })
@@ -175,9 +175,9 @@ for (let i = 0; i < uzd3Masyvas.length; i++) {
 console.log("Map 4.8")
 
 
-uzd3Masyvas.map(item => {
+uzd3Masyvas.map(item, index => {
   if (!isNaN(item)) {
-    console.log(uzd3Masyvas.indexOf(item) * item)
+    console.log(index * item)
   }
 
 })
